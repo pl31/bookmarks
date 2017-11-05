@@ -38,6 +38,13 @@ for tag_permutation, bookmarks in sorted(bookmarks_by_tag_permutations.items()):
     with open(os.path.join(tag_dir, "index.md"), "w") as page_file:
         page_file.write("# {tags}\n\n".format(tags=tag_reldir))
         for bookmark in bookmarks:
-            page_file.write("- [{title}]({url})\n".format(**bookmark))
+            bookmark_tags = []
+            for tag in bookmark["tags"]:
+                if tag not in tag_permutation:
+                    bookmark_tags.append("[{tag}]({tag})".format(tag=tag))
+                else:
+                    bookmark_tags.append(tag)
+            page_file.write("- [{title}]({url}) [{bookmark_tags}]\n"
+                .format(bookmark_tags=",".join(bookmark_tags), **bookmark))
         
     

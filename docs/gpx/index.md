@@ -1,3 +1,3 @@
 # gpx
 
-- [ShowGPX](https://www.j-berkemeier.de/ShowGPX.html)
+- [ShowGPX](https://www.j-berkemeier.de/ShowGPX.html) [[gps](gps),gpx]
