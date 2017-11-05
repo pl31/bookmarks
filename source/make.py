@@ -18,11 +18,15 @@ with open(bookmarkfile_path, "r") as bookmark_file:
     bookmarks = yaml.load(bookmark_file)
 
 # iterate over all bookmarks and create structure by tag-permutations
+all_tags = []
 bookmarks_by_tag_permutations = {}
 for bookmark in bookmarks["bookmarks"]:
     print(bookmark["title"], ": ", bookmark["url"])
     if ("tags" not in bookmark) or (len(bookmark["tags"]) < 1):
-        bookmark["tags"] = "_untagged"   
+        bookmark["tags"] = "_untagged"
+    for tag in bookmark["tags"]:
+        if tag not in all_tags:
+            all_tags.append(tag)
     for i in range(len(bookmark["tags"])):
         tag_permutations = list(itertools.permutations(bookmark["tags"],i + 1))
         for tag_permutation in tag_permutations:
