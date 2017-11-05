@@ -17,9 +17,15 @@ shutil.copytree(docs_source_dir, docs_target_dir)
 with open(bookmarkfile_path, "r") as bookmark_file:
     bookmarks = yaml.load(bookmark_file)
 
-# iterate over all bookmarks
+# iterate over all bookmarks and create structure by tag-permutations
+bookmarks_by_tag_permutations = {}
 for bookmark in bookmarks["bookmarks"]:
     print(bookmark["title"], ": ", bookmark["url"])
-    tag_permutations = list(itertools.permutations(bookmark["tags"]))
-    for tag_permutation in tag_permutations:
-        print("/".join(tag_permutation)) 
+    for i in range(len(bookmark["tags"])):
+        tag_permutations = list(itertools.permutations(bookmark["tags"],i + 1))
+        for tag_permutation in tag_permutations:
+            if tag_permutation not in bookmarks_by_tag_permutations:
+                bookmarks_by_tag_permutations[tag_permutation] = []
+            bookmarks_by_tag_permutations[tag_permutation].append(bookmark)
+
+print(bookmarks_by_tag_permutations)

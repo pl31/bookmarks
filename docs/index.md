@@ -1,3 +1,7 @@
-# search
+# quicklinks
 
-[google](https://www.google.de)
+## search
+
+- [google](https://www.google.de)
+
+- [test](test/)
