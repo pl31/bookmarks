@@ -1,3 +1,3 @@
 # search
 
-[google](google.de)
+[google](https://www.google.de)
