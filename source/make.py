@@ -21,6 +21,8 @@ with open(bookmarkfile_path, "r") as bookmark_file:
 bookmarks_by_tag_permutations = {}
 for bookmark in bookmarks["bookmarks"]:
     print(bookmark["title"], ": ", bookmark["url"])
+    if ("tags" not in bookmark) or (len(bookmark["tags"]) < 1):
+        bookmark["tags"] = "_untagged"   
     for i in range(len(bookmark["tags"])):
         tag_permutations = list(itertools.permutations(bookmark["tags"],i + 1))
         for tag_permutation in tag_permutations:
@@ -28,4 +30,14 @@ for bookmark in bookmarks["bookmarks"]:
                 bookmarks_by_tag_permutations[tag_permutation] = []
             bookmarks_by_tag_permutations[tag_permutation].append(bookmark)
 
-print(bookmarks_by_tag_permutations)
+# create directory structure
+for tag_permutation, bookmarks in sorted(bookmarks_by_tag_permutations.items()):
+    tag_reldir = "/".join(tag_permutation)
+    tag_dir = os.path.join(docs_target_dir, tag_reldir)
+    os.makedirs(tag_dir)
+    with open(os.path.join(tag_dir, "index.md"), "w") as page_file:
+        page_file.write("# {tags}\n\n".format(tags=tag_reldir))
+        for bookmark in bookmarks:
+            page_file.write("- [{title}]({url})\n".format(**bookmark))
+        
+    
