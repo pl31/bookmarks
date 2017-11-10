@@ -5,15 +5,14 @@
 - [google](https://www.google.de)
 
 
-# other links
+## other links
 
-{% for links in site.links %}
+{% for link in site.links %}
 
-
-<a href="{{ links.url | prepend: site.baseurl }}">
-        <h2>{{ links.title }}</h2>
+<a href="{{ link.url | prepend: site.baseurl }}">
+        <h2>{{ link.title }}</h2>
 </a>
 
-<p class="post-excerpt">{{ links.url | truncate: 160 }}</p>
+<p class="post-excerpt">{{ link.url }}</p>
 
 {% endfor %}      
