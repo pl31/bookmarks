@@ -9,9 +9,9 @@
     {% endif %}
   {% endfor %}
   {% if block_toggle %}
-    <div class="blocko">
+    {% blocko %}
   {% else %}
-    <div class="blocke">
+    {% blocke %}
   {% endif %}
   {% assign block_toggle = not block_toggle %} 
       <h2>{{ tag }}</h2>
@@ -23,5 +23,9 @@
         </li>   
       {% endfor %}
       </ul>
-    </div>
+  {% if block_toggle %}
+    {% endblocko %}
+  {% else %}
+    {% endblocke %}
+  {% endif %}
 {% endfor %}
