@@ -1,7 +1,6 @@
 # quicklinks
 
-
-{% for tag in ["search", "social"] %}
+{% for tag in site.quicklinks %}
   <h2>test</h2>
   <ul>
   {% for link in site.links %}

@@ -3,3 +3,4 @@ theme: jekyll-theme-slate
 collections:
   links:
     output: true
+quicklinks: ["search", "social"]
