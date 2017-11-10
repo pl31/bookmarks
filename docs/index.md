@@ -7,6 +7,7 @@
       {% assign quicklinks = quicklinks | push: link %}
     {% endif %}
   {% endfor %}
+  <table><tr><td>
   <h2>{{ tag }}</h2>
   <ul>
   {% assign sorted_quicklinks = (quicklinks | sort: 'quicklink') %}
@@ -16,4 +17,5 @@
     </li>   
   {% endfor %}
   </ul>
+  </td></tr></table>
 {% endfor %}
