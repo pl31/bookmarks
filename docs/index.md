@@ -1,7 +1,7 @@
 # quicklinks
 
 {% for tag in site.quicklinks %}
-  {% assign quicklinks = [] %}
+  {% assign quicklinks = "" | split: "" %}
   {% for link in site.links %}
     {% if link.quicklink and (link.tags contains tag) %}
       {% assign quicklinks = quicklinks | push: link %}
