@@ -7,12 +7,9 @@
 
 ## other links
 
+<ul>
 {% for link in site.links %}
-
-<a href="{{ link.url | prepend: site.baseurl }}">
-        <h2>{{ link.title }}</h2>
-</a>
-
-<p class="post-excerpt">{{ link.url }}</p>
+<li><a href="{{ link.weburl }}">{{ link.title }}</a></li>
 
 {% endfor %}      
+</ul>
