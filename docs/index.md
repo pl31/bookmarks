@@ -14,7 +14,7 @@
   {% for link in sorted_quicklinks %}
     <tr>
       <td style="border:0;padding:0;vertical-align:middle;">
-        <img src="{{ link.weburl }}/favicon.ico" style="width:16;height:16;border:0;padding:0;margin:0;"/>
+        <img src="{{ link.weburl }}/favicon.ico" style="width:16px;height:16px;border:0;padding:0;margin:0;"/>
       </td>
       <td style="border:0;padding:0;vertical-align:middle;">
         <a href="{{ link.weburl }}">{{ link.title }}</a>
