@@ -13,7 +13,7 @@
   {% assign sorted_quicklinks = (quicklinks | sort: 'quicklink') %}
   {% for link in sorted_quicklinks %}
     <li>
-      <img src="{{ link.weburl }}/favicon.ico" width=32 height=32>
+      ![]({{ link.weburl }}/favicon.ico =32x32)
       <a href="{{ link.weburl }}">{{ link.title }}</a>
     </li>   
   {% endfor %}
