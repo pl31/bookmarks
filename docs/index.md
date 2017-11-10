@@ -7,15 +7,13 @@
       {% assign quicklinks = quicklinks | push: link %}
     {% endif %}
   {% endfor %}
-  {% raw %}
-    <h2>{{ tag }}</h2>
-    <ul>
-    {% assign sorted_quicklinks = (quicklinks | sort: 'quicklink') %}
-    {% for link in sorted_quicklinks %}
-      <li>
-        <a href="{{ link.weburl }}">{{ link.title }}</a>
-      </li>   
-    {% endfor %}
-    </ul>
-  {% endraw %}
+  <h2>{{ tag }}</h2>
+  <ul>
+  {% assign sorted_quicklinks = (quicklinks | sort: 'quicklink') %}
+  {% for link in sorted_quicklinks %}
+    <li>
+      <a href="{{ link.weburl }}">{{ link.title }}</a>
+    </li>   
+  {% endfor %}
+  </ul>
 {% endfor %}
