@@ -1,4 +1,4 @@
-# quicklinks
+# [quicklinks](#quicklinks)
 
 {% for tag in site.quicklinks %}
   {% assign quicklinks = "" | split: "" %}
