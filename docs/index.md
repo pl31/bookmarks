@@ -18,5 +18,6 @@
   {% endfor %}
   </ul>
   </td></tr></table>
-  <table style="clear: left;"></table>
 {% endfor %}
+
+<p style="clear: left;"></p>
