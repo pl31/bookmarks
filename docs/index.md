@@ -12,7 +12,7 @@
   <table style="border:0;">
   {% assign sorted_quicklinks = (quicklinks | sort: 'quicklink') %}
   {% for link in sorted_quicklinks %}
-    {% assign favicon = URI.parse(link.weburl).host %}
+    {% assign favicon = url.parse(link.weburl).host %}
     <tr>
       <td style="border:0;padding:2px;">
         <img src="{{ link.weburl }}/favicon.ico" style="width:16px;height:16px;margin:0;vertical-align:middle;"/>
