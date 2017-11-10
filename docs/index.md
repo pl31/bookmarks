@@ -9,14 +9,14 @@
   {% endfor %}
   <table style="display:block; float:left; border:0;"><tr><td style="border:0;">
   <h2>{{ tag }}</h2>
-  <table style="display:block; float:left; border:0;">
+  <table style="border:0;">
   {% assign sorted_quicklinks = (quicklinks | sort: 'quicklink') %}
   {% for link in sorted_quicklinks %}
     <tr>
-      <td>
+      <td style="border:0;">
         <img src="{{ link.weburl }}/favicon.ico" width="16" height="16" />
       </td>
-      <td>
+      <td style="border:0;">
         <a href="{{ link.weburl }}">{{ link.title }}</a>
       </td>
     </tr>   
