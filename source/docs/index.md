@@ -10,6 +10,5 @@
 <ul>
 {% for link in site.links %}
 <li><a href="{{ link.weburl }}">{{ link.title }}</a></li>
-
 {% endfor %}      
 </ul>
