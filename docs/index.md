@@ -3,8 +3,8 @@
 {% for tag in site.quicklinks %}
   <h2>{{ tag }}</h2>
   <ul>
-  {% for link in site.links %}
-    {% if (link contains "quicklink") and (link.tags contains tag) %}
+  {% for link in site.links.sort_by &:quicklink %}
+    {% if (link.quicklink?) and (link.tags contains tag) %}
       <li>
         <a href="{{ link.weburl }}">{{ link.title }}</a>
       </li>   
