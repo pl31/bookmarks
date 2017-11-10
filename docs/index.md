@@ -9,9 +9,13 @@
     {% endif %}
   {% endfor %}
   {% if block_toggle %}
+
     <div class="blocko">
+
   {% else %}
+
     <div class="blocke">
+    
   {% endif %}
   {% assign block_toggle = !block_toggle %} 
       <h2>{{ tag }}</h2>
