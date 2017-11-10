@@ -2,16 +2,16 @@
 
 
 {% for tag in ["search", "social"] %}
-<h2>{{ tag }}</h2>
-<ul>
-{% for link in site.links %}
-  {% if link.tags contains "quicklink" && link.tags contains "search" %}
-    <li>
-      <a href="{{ link.weburl }}">{{ link.title }}</a>
-    </li>   
-  {% endif %}
-{% endfor %}
-</ul>
+  <h2>test</h2>
+  <ul>
+  {% for link in site.links %}
+    {% if link.tags contains "quicklink" && link.tags contains tag %}
+      <li>
+        <a href="{{ link.weburl }}">{{ link.title }}</a>
+      </li>   
+    {% endif %}
+  {% endfor %}
+  </ul>
 {% endfor %}
 
 ## other links
