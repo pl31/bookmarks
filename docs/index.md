@@ -13,7 +13,7 @@
   {% else %}
     <div class="blocke">
   {% endif %}
-  {% assign toggle = !block_toggle %} 
+  {% assign block_toggle = !block_toggle %} 
       <h2>{{ tag }}</h2>
       <ul>
       {% assign sorted_quicklinks = (quicklinks | sort: 'quicklink') %}
