@@ -7,7 +7,7 @@
       {% assign quicklinks = quicklinks | push: link %}
     {% endif %}
   {% endfor %}
-  <table style="display:block; float:left; border=0"><tr><td>
+  <table style="display:block; float:left; border:0;"><tr><td style="border:0;">
   <h2>{{ tag }}</h2>
   <ul>
   {% assign sorted_quicklinks = (quicklinks | sort: 'quicklink') %}
