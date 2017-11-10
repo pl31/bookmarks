@@ -9,7 +9,8 @@
   {% endfor %}
   <h2>{{ tag }}</h2>
   <ul>
-  {% for link in quicklinks %}
+  {% assign = sorted_quicklinks | sort: 'quicklink' %}
+  {% for link in sorted_quicklinks %}
     <li>
       <a href="{{ link.weburl }}">{{ link.title }}</a>
     </li>   
