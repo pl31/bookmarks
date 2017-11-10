@@ -1,14 +1,18 @@
 # quicklinks
 
 {% for tag in site.quicklinks %}
+  {% assign quicklinks = [] %}
+  {% for link in site.links %}
+    {% if link.quicklink and (link.tags contains tag) %}
+      {% assign quicklinks = quicklinks | push: link %}
+    {% endif %}
+  {% endfor %}
   <h2>{{ tag }}</h2>
   <ul>
-  {% for link in site.links.sort { |a,b| a.quicklink && b.quicklink ? a.quicklink <=> b.quicklink : a.quicklink ? -1 : 1 } %}
-    {% if link.quicklink and (link.tags contains tag) %}
-      <li>
-        <a href="{{ link.weburl }}">{{ link.title }}</a>
-      </li>   
-    {% endif %}
+  {% for link in quicklinks %}
+    <li>
+      <a href="{{ link.weburl }}">{{ link.title }}</a>
+    </li>   
   {% endfor %}
   </ul>
 {% endfor %}
