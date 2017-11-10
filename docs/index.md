@@ -13,10 +13,10 @@
   {% assign sorted_quicklinks = (quicklinks | sort: 'quicklink') %}
   {% for link in sorted_quicklinks %}
     <tr>
-      <td style="border:0;border-spacing:0px;padding:0;vertical-align:middle;">
-        <img src="{{ link.weburl }}/favicon.ico" width="16" height="16" style="border:0;padding:0;"/>
+      <td style="border:0;padding:0;vertical-align:middle;">
+        <img src="{{ link.weburl }}/favicon.ico" style="width:16;height:16;border:0;padding:0;margin:0;"/>
       </td>
-      <td style="border:0;border-spacing:0px;padding:0;vertical-align:middle;">
+      <td style="border:0;padding:0;vertical-align:middle;">
         <a href="{{ link.weburl }}">{{ link.title }}</a>
       </td>
     </tr>   
