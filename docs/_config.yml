@@ -1,5 +1,5 @@
 
-theme: jekyll-theme-tactile
+theme: jekyll-theme-slate
 collections:
   links:
     output: true
