@@ -9,15 +9,11 @@
     {% endif %}
   {% endfor %}
   {% if block_toggle %}
-
     <div class="blocko">
-
   {% else %}
-
     <div class="blocke">
-    
   {% endif %}
-  {% assign block_toggle = !block_toggle %} 
+  {% assign block_toggle = not block_toggle %} 
       <h2>{{ tag }}</h2>
       <ul>
       {% assign sorted_quicklinks = (quicklinks | sort: 'quicklink') %}
