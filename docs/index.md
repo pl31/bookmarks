@@ -5,7 +5,7 @@
   <ul>
   {% for link in site.links %}
     Test
-    {% if (link.quicklink?) and (link.tags contains tag) %}
+    {% if link.quicklink and (link.tags contains tag) %}
       <li>
         <a href="{{ link.weburl }}">{{ link.title }}</a>
       </li>   
