@@ -1,5 +1,5 @@
 
-theme: jekyll-theme-slate
+theme: jekyll-theme-minimal
 collections:
   links:
     output: true
