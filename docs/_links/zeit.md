@@ -1,6 +1,6 @@
 ---
 title: zeit
-weburl: https://www.zeit.de
+weburl: http://www.zeit.de
 tags: [news]
 quicklink: 201
 layout: link
