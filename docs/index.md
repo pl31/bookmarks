@@ -13,7 +13,9 @@
       {% endif %}
       <tr>
         <td style="border:0;padding:4px;">
-          <img src="{{ favicon }}" alt=" " style="all:unset;width:16px;height:16px;margin:0;vertical-align:middle;"/>
+          {% if favicon && favicon contains "https://" %}
+            <img src="{{ favicon }}" alt=" " style="all:unset;width:16px;height:16px;margin:0;vertical-align:middle;"/>
+          {% endif %}
         </td>
         <td style="border:0;padding:0px;">
           <a href="{{ link.href }}" style="vertical-align:middle;">{{ link.title }}</a>
