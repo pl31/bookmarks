@@ -87,6 +87,24 @@
   tags: [quicklink,misc]
   icon: https://hub.docker.com/favicon.ico
 
+###
+### weather
+###
+- title: wetterdienst
+  href: http://www.wetterdienst.de/Deutschlandwetter/Suedstadt_Karlsruhe_(Baden)
+  tags: [quicklink,weather]
+  icon: http://www.wetterdienst.de/favicon.ico
+
+- title: kachelmann
+  href: https://kachelmannwetter.com/de/vorhersage/2892794-karlsruhe/kompakt
+  tags: [quicklink,weather]
+  icon: https://kachelmannwetter.com/favicon.ico
+
+- title: regenradar
+  href: https://www.wetteronline.de/regenradar
+  tags: [quicklink,weather]
+  icon: https://www.wetteronline.de/favicon.ico
+
 ######################################################
 
 - title: ShowGPX
