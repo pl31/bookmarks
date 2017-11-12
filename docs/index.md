@@ -46,6 +46,7 @@
       <a href="{{ link.href }}" style="vertical-align:middle;">{{ link.title }}</a>
     </td>
     <td style="border:0;padding:4px;">
+      {{ link.tags | join: ", " }
     </td>
     <td style="border:0;padding:4px;">
       <a href="{{ link.href }}" style="vertical-align:middle;">{{ link.href }}</a>
