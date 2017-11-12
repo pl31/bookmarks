@@ -2,7 +2,7 @@
 
 {% for tag in site.quicklinks %}
   {% assign quicklinks = "" | split: "" %}
-  {% for link in site.links %}
+  {% for link in site.bookmarks %}
     {% if link.quicklink and (link.tags contains tag) %}
       {% assign quicklinks = quicklinks | push: link %}
     {% endif %}

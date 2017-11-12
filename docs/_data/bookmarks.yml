@@ -1,0 +1,126 @@
+###
+### search
+###
+- title: google
+  weburl: https://www.google.de
+  tags: [search]
+  quicklink: 100
+  layout: link
+
+- title: google maps
+  weburl: https://www.google.de/maps
+  tags: [search]
+  quicklink: 101
+  layout: link
+
+- title: de.wikipedia.org
+  weburl: https://de.wikipedia.org/
+  tags: [search]
+  quicklink: 200
+  layout: link
+
+- title: en.wikipedia.org
+  weburl: https://en.wikipedia.org/
+  tags: [search]
+  quicklink: 201
+  layout: link
+
+- title: leo en
+  weburl: https://dict.leo.org/ende
+  tags: [search]
+  quicklink: 300
+  layout: link
+
+- title: leo fr
+  weburl: https://dict.leo.org/frde
+  tags: [search]
+  quicklink: 301
+  layout: link
+
+###
+### news
+###
+- title: feed reader
+  weburl: https://c.pl31.de/paco/reader
+  tags: [news]
+  quicklink: 100
+  layout: link
+
+- title: taz
+  weburl: https://www.taz.de
+  tags: [news]
+  quicklink: 200
+  layout: link
+
+- title: zeit
+  weburl: http://www.zeit.de
+  tags: [news]
+  quicklink: 201
+  layout: link
+
+- title: spiegel
+  weburl: https://www.spiegel.de
+  tags: [news]
+  quicklink: 202
+  layout: link
+
+- title: kicker
+  weburl: https://www.kicker.de
+  tags: [news]
+  quicklink: 203
+  layout: link
+
+- title: ka-news
+  weburl: https://www.ka-news.de/
+  tags: [news]
+  quicklink: 204
+  layout: link
+
+###
+### social
+###
+- title: strava
+  weburl: https://www.strava.com/
+  tags: [social]
+  quicklink: 300
+  layout: link
+
+- title: web.de
+  weburl: https://web.de
+  tags: [social]
+  quicklink: 100
+  layout: link
+
+- title: xing
+  weburl: https://www.xing.com/
+  tags: [social]
+  quicklink: 200
+  layout: link
+
+###
+### misc
+###
+- title: amazon
+  weburl: https://smile.amazon.de/
+  tags: [misc]
+  quicklink: 100
+  layout: link
+
+- title: github
+  weburl: https://github.com/pl31/
+  tags: [misc]
+  quicklink: 200
+  layout: link
+
+- title: docker
+  weburl: https://hub.docker.com/r/pl31/
+  tags: [misc]
+  quicklink: 300
+  layout: link
+
+######################################################
+
+- title: ShowGPX
+  weburl: https://www.j-berkemeier.de/ShowGPX.html
+  tags: [gps, gpx]
+  layout: link
