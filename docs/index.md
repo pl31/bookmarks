@@ -1,25 +1,20 @@
 # [quicklinks](#quicklinks)
 
 {% for tag in site.quicklinks %}
-  {% assign quicklinks = "" | split: "" %}
-  {% for link in site.data.bookmarks %}
-    {% if link.quicklink and (link.tags contains tag) %}
-      {% assign quicklinks = quicklinks | push: link %}
-    {% endif %}
-  {% endfor %}
   <table style="display:block; float:left; border:0;"><tr><td style="border:0;">
   <h2>{{ tag }}</h2>
   <table style="border:0;">
-  {% assign sorted_quicklinks = (quicklinks | sort: 'quicklink') %}
-  {% for link in sorted_quicklinks %}
-    <tr>
-      <td style="border:0;padding:4px;">
-        <img src="{{ link.weburl }}/favicon.ico" alt=" " style="all:unset;width:16px;height:16px;margin:0;vertical-align:middle;"/>
-      </td>
-      <td style="border:0;padding:0;">
-        <a href="{{ link.weburl }}" style="vertical-align:middle;">{{ link.title }}</a>
-      </td>
-    </tr>   
+  {% for link in site.data.bookmarks %}
+    {% if (link.tags contains "quicklink") and (link.tags contains tag) %}
+      <tr>
+        <td style="border:0;padding:4px;">
+          <img src="{{ link.href }}/favicon.ico" alt=" " style="all:unset;width:16px;height:16px;margin:0;vertical-align:middle;"/>
+        </td>
+        <td style="border:0;padding:0;">
+          <a href="{{ link.href }}" style="vertical-align:middle;">{{ link.title }}</a>
+        </td>
+      </tr>   
+    {% endif %}
   {% endfor %}
   </table>
   </td></tr></table>
