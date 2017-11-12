@@ -6,9 +6,10 @@
   <table style="border:0;">
   {% for link in site.data.bookmarks %}
     {% if (link.tags contains "quicklink") and (link.tags contains tag) %}
+      {% assign favicon = link.icon ? link.icon : {{ link.href }} + "/favicon.ico" %}
       <tr>
         <td style="border:0;padding:4px;">
-          <img src="{{ link.href }}/favicon.ico" alt=" " style="all:unset;width:16px;height:16px;margin:0;vertical-align:middle;"/>
+          <img src="{{ favicon }}" alt=" " style="all:unset;width:16px;height:16px;margin:0;vertical-align:middle;"/>
         </td>
         <td style="border:0;padding:0;">
           <a href="{{ link.href }}" style="vertical-align:middle;">{{ link.title }}</a>

@@ -8,22 +8,25 @@
 - title: google maps
   href: https://www.google.de/maps
   tags: [quicklink,search]
+  icon: https://www.google.de/favicon.ico
 
 - title: de.wikipedia.org
-  href: https://de.wikipedia.org/
+  href: https://de.wikipedia.org
   tags: [quicklink,search]
 
 - title: en.wikipedia.org
-  href: https://en.wikipedia.org/
+  href: https://en.wikipedia.org
   tags: [quicklink,search]
 
 - title: leo en
   href: https://dict.leo.org/ende
   tags: [quicklink,search]
+  icon: https://dict.leo.org/favicon.ico
 
 - title: leo fr
   href: https://dict.leo.org/frde
   tags: [quicklink,search]
+  icon: https://dict.leo.org/favicon.ico
 
 ###
 ### news
@@ -49,38 +52,40 @@
   tags: [quicklink,news]
 
 - title: ka-news
-  href: https://www.ka-news.de/
+  href: https://www.ka-news.de
   tags: [quicklink,news]
 
 ###
 ### social
 ###
-- title: strava
-  href: https://www.strava.com/
-  tags: [quicklink,social]
-
 - title: web.de
   href: https://web.de
   tags: [quicklink,social]
 
 - title: xing
-  href: https://www.xing.com/
+  href: https://www.xing.com
+  tags: [quicklink,social]
+
+- title: strava
+  href: https://www.strava.com
   tags: [quicklink,social]
 
 ###
 ### misc
 ###
 - title: amazon
-  href: https://smile.amazon.de/
+  href: https://smile.amazon.de
   tags: [quicklink,misc]
 
 - title: github
-  href: https://github.com/pl31/
+  href: https://github.com/pl31
   tags: [quicklink,misc]
+  icon: https://github.com/favicon.ico
 
 - title: docker
-  href: https://hub.docker.com/r/pl31/
+  href: https://hub.docker.com/r/pl31
   tags: [quicklink,misc]
+  icon: https://hub.docker.com/favicon.ico
 
 ######################################################
 
