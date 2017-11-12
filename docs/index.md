@@ -8,6 +8,7 @@
     {% if (link.tags contains "quicklink") and (link.tags contains tag) %}
       {% assign favicon = link.icon ? defined? link.icon : link.href+"/favicon.ico" %}
       <tr>
+      {{ link.icon ? defined? link.icon : link.href+"/favicon.ico" }}
         <td style="border:0;padding:4px;">
           <img src="{{ favicon }}" alt=" " style="all:unset;width:16px;height:16px;margin:0;vertical-align:middle;"/>
         </td>
