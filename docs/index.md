@@ -38,7 +38,7 @@
   {% else %}
     {% assign favicon = link.href | append: "/favicon.ico" %}
   {% endif %}
-  <tr>
+  <tr style="border:1px;">
     <td style="border:0;padding:4px;">
       <img src="{{ favicon }}" alt=" " style="all:unset;width:16px;height:16px;margin:0;vertical-align:middle;"/>
     </td>
