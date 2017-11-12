@@ -28,17 +28,14 @@
 
 # all bookmarks
 
-<table>
-<tr>
-  <th></th><th>name</th><th>tags</th>
-</tr>
+<table style="border:0;">
 {% for link in site.data.bookmarks %}
   {% if link.icon %}
     {% assign favicon = link.icon %}
   {% else %}
     {% assign favicon = link.href | append: "/favicon.ico" %}
   {% endif %}
-  <tr style="border:1;">
+  <tr>
     <td style="border:0;padding:4px;">
       <img src="{{ favicon }}" alt=" " style="all:unset;width:16px;height:16px;margin:0;vertical-align:middle;"/>
     </td>
