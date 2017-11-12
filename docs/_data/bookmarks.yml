@@ -106,8 +106,478 @@
   icon: https://www.wetteronline.de/favicon.ico
 
 ######################################################
+### unsortiert
+######################################################
 
 - title: ShowGPX
   href: https://www.j-berkemeier.de/ShowGPX.html
   tags: [gps, gpx]
   icon: https://www.j-berkemeier.de/favicon.ico
+
+- href: http://kurze-kabel.de/
+  tags: [shopping,computer]
+  title: kurze-kabel.de - weniger ist mehr!
+
+- href: https://github.com/open62541/open62541/wiki/List-of-Open-Source-OPC-UA-Implementations
+  tags: [programming,opcua]
+  title: List of Open Source OPC UA Implementations · open62541/open62541 Wiki · GitHub
+
+- href: http://www.immocenter-karlsruhe.de/
+  tags: [immobilien]
+  title: Immobilien, Karlsruhe, ImmoCenter GmbH
+
+- href: http://www.uboat.net/boats/patrols/patrol_3275.html
+  tags: [U1235]
+  title: Patrol of German U-boat U-1235 from 14 Mar 1945 to 15 Apr 1945 - Kriegsmarine U-boat patrols - uboat.net
+
+- href: http://wikimapia.org/16091227/Wreck-of-U-1235
+  tags: [U1235]
+  title: Wreck of U-1235
+
+- href: https://github.com/Kickball/awesome-selfhosted
+  tags: [webapp,saas]
+  title: GitHub - Kickball/awesome-selfhosted: This is a list of Free Software network services and web applications which can be hosted locally. Selfhosting is the process of locally hosting and managing applications instead of renting from SaaS providers.
+
+- href: http://selfoss.aditu.de/
+  tags: [php,saas,webapp]
+  title: selfoss - the open source web based rss reader and multi source mashup aggregator
+
+- href: http://www.rainloop.net/
+  tags: [php,saas,webapp]
+  title: RainLoop Webmail
+
+- href: http://www.immonet.de/
+  tags: [immobilien]
+  title: Immobilien, Wohnungen und Häuser bei Immonet.de
+
+- href: http://docs.python-guide.org/en/latest/
+  tags: [programming,python]
+  title: The Hitchhiker’s Guide to Python! — The Hitchhiker's Guide to Python
+
+- href: http://www.grpc.io/posts/principles/
+  tags: [programming]
+  title: grpc / gRPC Motivation and Design Principles.
+
+- href: https://www.staticgen.com/
+  tags: [programming,aktuelles,tools]
+  title: Top Open-Source Static Site Generators - StaticGen
+
+- href: http://www.melvinsi-fashion.de/
+  tags: [shopping,lang]
+  title: großen Größe webshop - Der Onlineshop für Herrenmode in großen Größen bis 8XL.
+
+- href: http://jsonschemalint.com/
+  tags: [jsonschema,programming]
+  title: JSON Schema Lint :: JSON Schema Validator
+
+- href: https://github.com/ipython/ipython/wiki/Projects-using-IPython#list-of-some-ipython-compatible-kernels
+  tags: [programming,ipython]
+  title: ipython kernel
+
+- href: https://code.google.com/p/or-tools/
+  tags: [opensource,programming]
+  title: or-tools - Operations Research Tools developed at Google - Google Project Hosting
+
+- href: http://nbviewer.ipython.org/github/ipython/ipython/blob/2.x/examples/Interactive%20Widgets/Index.ipynb
+  tags: [programming,ipython]
+  title: IPython Widgets 2
+
+- href: http://nbviewer.ipython.org/github/ipython/ipython/tree/2.x/examples/Interactive%20Widgets/
+  tags: [programming,ipython]
+  title: IPython Widgets
+
+- href: https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks
+  tags: [ipython,programming]
+  title: A gallery of interesting IPython Notebooks · ipython/ipython Wiki
+
+- href: http://nbviewer.ipython.org/github/NelisW/ComputationalRadiometry/blob/master/01-IPythonHintsAndTips.ipynb
+  tags: [programming,ipython]
+  title: IPython Tips and Tricks
+
+- href: http://www.watterott.com/
+  tags: [hardware]
+  title: Watterott electronic
+
+- href: http://stackoverflow.com/tags/timezone/info
+  tags: [programming]
+  title: 'timezone' tag wiki - Stack Overflow
+
+- href: http://regexstorm.net/tester
+  tags: [programming]
+  title: .NET Regex Tester - Regex Storm
+
+- href: http://www.epubli.de/
+  tags: [aktuelles]
+  title: Buchdruck von morgen - Eigenes Buch drucken und Buch binden lassen und auf Wunsch veröffentlichen - epubli
+
+- href: http://askubuntu.com/questions/48129/how-to-create-a-restricted-ssh-user-for-port-forwarding
+  tags: [linux,aktuelles]
+  title: security - How to create a restricted SSH user for port forwarding? - Ask Ubuntu - Stack Exchange
+
+- href: http://www.melongia.de
+  tags: [shopping,aktuelles]
+  title: melongia
+
+- href: http://www.it-agile.de/kanban-comic.html
+  tags: [aktuelles]
+  title: Kanban Comic
+
+- href: http://openweathermap.org/
+  tags: []
+  title: Open Weather Map actual and forecast weather.
+
+- href: http://staff.washington.edu/corey/gulp/
+  tags: [tcpdump,linux]
+  title: Lossless Gigabit Remote Packet Capture With Linux
+
+- href: http://www.radverkehrspolitik.de/welche-ampel-gilt-fur-den-radverkehr/
+  tags: [aktuelles]
+  title: Ampeln und Radverkehr.
+
+- href: http://code.flickr.com/blog/2012/06/01/parsing-exif-client-side-using-javascript-2/
+  tags: [programming,exif,javascript]
+  title: Code: Flickr Developer Blog » Parsing Exif client-side using JavaScript
+
+- href: http://www.culturebridge-architects.com/
+  tags: [homepage]
+  title: Chrischan
+
+- href: http://www.gpsvisualizer.com/elevation
+  tags: [free,geotagging,tools,for,photos,gpx,gps]
+  title: GPS Visualizer: Assign elevation data
+
+- href: http://code.msdn.microsoft.com/windowsdesktop/Windows-Workflow-c5649c23
+  tags: [programming]
+  title: WF4 scope activity
+
+- href: http://ebookbrowse.com/
+  tags: [bücher,ebooks]
+  title: Ebookbrowse.com
+
+- href: http://www.mobileread.com/forums/forumdisplay.php?f=150
+  tags: [kindle]
+  title: Kindle Developer's Corner - MobileRead Forums
+
+- href: http://www.digitalbond.com/2012/01/31/langners-stuxnet-deep-dive-s4-video/
+  tags: [security,scada,s7]
+  title: Langner's Stuxnet Deep Dive S4 Video | Digital Bond
+
+- href: http://www.opennms.org/
+  tags: [security,scada,s7]
+  title: The OpenNMS Project
+
+- href: http://twitter.com/#!/search/s7%20OR%20siemens%20from%3Ad1n
+  tags: [scada,security,s7]
+  title: Twitter Dillon Beresford
+
+- href: http://www.wired.com/threatlevel/2012/01/scada-exploits/
+  tags: [security,scada,s7]
+  title: Hoping to Teach a Lesson, Researchers Release Exploits for Critical Infrastructure Software | Threat Level | Wired.com
+
+- href: http://sectools.org/
+  tags: [security]
+  title: Top 100 Network Security Tools
+
+- href: http://www.digitalbond.com/
+  tags: [s7,security,scada]
+  title: Digital Bond
+
+- href: http://www.scadahacker.com/
+  tags: [s7,scada,security]
+  title: SCADAhacker.com - Think like a hacker!
+
+- href: http://www.unwetterzentrale.de/
+  tags: [karlsruhe]
+  title: Unwetterzentrale
+
+- href: http://imkbemu.physik.uni-karlsruhe.de/~fzkmast/mast.html
+  tags: [karlsruhe]
+  title: Wetterstation der Uni Karlsruhe
+
+- href: http://jsonviewer.stack.hu/
+  tags: [json,javascript,programming]
+  title: Online JSON Viewer
+
+- href: http://www.wolfpil.de/
+  tags: [aktuelles]
+  title: Customizing Google Maps
+
+- href: http://www.sno.phy.queensu.ca/~phil/exiftool/
+  tags: [gps,exif,photography,software,metadata,tools,photo,perl,opensource,freeware,photos,free,geotagging,tools,for,photos]
+  title: exiftool
+
+- href: http://www.geosetter.de/
+  tags: [gps,geotagging,software,freeware,photography,photo,windows,foto,tools,geo,free,geotagging,tools,for,photos]
+  title: geosetter
+
+- href: http://silverpeaks.de/
+  tags: [homepage,map,exif,geotagging,geocoding,geoimaging,fotos,photos]
+  title: silverpeaks.de
+
+- href: http://www.cloudsider.com/
+  tags: [storage,aktuelles]
+  title: Online Festplatten Test
+
+- href: http://www.varsanofiev.com/inside/using_tuntap_under_windows.htm
+  tags: [aktuelles]
+  title: Using tuntap under Windows
+
+- href: http://freecomputerbooks.com/
+  tags: [ebooks,bücher]
+  title: Free Computer, Programming, Mathematics, Technical Books ...
+
+- href: http://sven.stormbind.net/debian/alix/
+  tags: [alix]
+  title: Debian ALIX2
+
+- href: http://wiki.ubuntuusers.de/Alix
+  tags: [alix]
+  title: ubuntuusers.de Alix LEDs-ansteuern
+
+- href: https://wiki.linz.funkfeuer.at/funkfeuer/HowTo/AlixBoards
+  tags: [alix]
+  title: HowTo/AlixBoards - FunkFeuer
+
+- href: http://blog.urfix.com/9-ways-huge-tcpdump/
+  tags: [aktuelles]
+  title: 9 Ways To Take a Huge Tcpdump
+
+- href: http://wiki.ubuntuusers.de/Netzwerkbr%C3%BCcke
+  tags: []
+  title: Netzwerkbrücke › Wiki › ubuntuusers.de
+
+- href: http://de.feedbooks.com/
+  tags: [ebooks,bücher]
+  title: feedbooks
+
+- href: https://books.google.de/books?id=g_PbtFKjFe8C&hl=de#v=onepage&amp;q&amp;f=false
+  tags: [klettersteig,klettern,sport]
+  title: Klettersteigatlas Alpen
+
+- href: http://www.gutenberg.org/
+  tags: [ebooks,bücher]
+  title: Free eBooks - Project Gutenberg
+
+- href: http://wiki.mobileread.com/wiki/Free_eBooks-de/de
+  tags: [ebooks,bücher]
+  title: MobileRead Wiki - Free eBooks-de/de
+
+- href: http://www.beam-ebooks.de/
+  tags: [ebooks,bücher]
+  title: beam eBooks - Der eBook Shop
+
+- href: http://www.trekking-lite-store.com/
+  tags: [shopping]
+  title: trekking-lite-store.com für ultra-leichtes Equipment
+
+- href: http://www.tourenwelt.info/huettenliste/huettenliste.php
+  tags: [hütte,alpen]
+  title: Jo's Hüttenliste
+
+- href: http://utrack.crempa.net/
+  tags: [free,geotagging,tools,for,photos,gpx,gps]
+  title: uTrack - online GPX track
+
+- href: http://dynamisch.vergleich.de/bg/scms/partner/zinsentwicklung/baufinanzierung/zinsentwicklung.htm
+  tags: [finanzen]
+  title: Zinsentwicklung
+
+- href: https://mozillademos.org/demos/dashboard-mobile/demo.html
+  tags: [programming]
+  title: HTML5 & Friends
+
+- href: http://whereis.silverpeaks.de/
+  tags: [gpx,gps,geotagging,map,fotos,photos,geoimaging,geocoding,free,geotagging,tools,for,photos]
+  title: whereis - silverpeaks
+
+- href: http://codex.wordpress.org/Multilingual_WordPress
+  tags: [wordpress]
+  title: Multilingual WordPress
+
+- href: http://www.jedi.be/blog/2009/05/06/8-ways-to-share-your-git-repository/
+  tags: [aktuelles]
+  title: 8 ways to share your git repository
+
+- href: http://www.antispam.de/wiki/T5F
+  tags: [aktuelles]
+  title: Auskunftsersuchen persönliche Daten
+
+- href: http://www.yaacool-bio.de/index.php?article=2341
+  tags: [aktuelles]
+  title: Stromanbieter und Ökostrom
+
+- href: http://www.swig.org/
+  tags: [c#,C++,opensource,programming]
+  title: Simplified Wrapper and Interface Generator
+
+- href: http://en.wikipedia.org/wiki/Shuttle_Radar_Topography_Mission
+  tags: [dgm,silverpeaks,geodäsie]
+  title: Shuttle Radar Topography Mission
+
+- href: http://www.prad.de/
+  tags: [computer,shopping]
+  title: PRAD | Monitor Feature Vergleich
+
+- href: http://www.sleepinginairports.net/
+  tags: [urlaub]
+  title: Sleeping in Airports
+
+- href: http://www.autohotkey.com/
+  tags: [opensource,programming,tools]
+  title: AutoHotkey
+
+- href: http://shana.worldofcoding.com/en/mono_cygwin_tutorial.html
+  tags: [c#,programming]
+  title: Mono & Cygwin Tutorial
+
+- href: http://www.sentex.net/~mwandel/jhead/
+  tags: [jpeg,lossless]
+  title: Exif Jpeg header manipulation tool
+
+- href: http://www.fluege.de/
+  tags: [urlaub,reisebüro]
+  title: Flüge.de
+
+- href: http://www.swoodoo.com/de/
+  tags: [urlaub,reisebüro]
+  title: swoodoo | Günstige Flug Angebote ...
+
+- href: http://www.travel-overland.de/
+  tags: [reisebüro,urlaub]
+  title: Travel Overland
+
+- href: http://mathnetnumerics.codeplex.com/
+  tags: [c#,geodäsie,programming]
+  title: Math.NET Numerics
+
+- href: http://www.eggheadcafe.com/articles/20030706.asp
+  tags: [c#,jpeg,lossless]
+  title: Lossless Rewriting of EXIF / JPEG Images in C#
+
+- href: http://www.dotnet-blog.com/index.php/2006/09/20/lossless-rotation-of-jpeg-images-with-c/
+  tags: [jpeg,lossless,c#]
+  title: Lossless rotation of JPEG images with C# | .NET BLOG
+
+- href: http://www.transgroup.by/img/map_Engl_big.jpg
+  tags: [urlaub,filetype:jpg,media:image]
+  title: Eurasischer Bahn-Netzplan
+
+- href: http://www.downforeveryoneorjustme.com/
+  tags: [computer,internet,tools]
+  title: Down for everyone or just me?
+
+- href: http://www.parashift.com/c++-faq-lite/index.html
+  tags: [C++,programming]
+  title: C++ FAQ LITE
+
+- href: http://www.tragant.de/
+  tags: [shopping,computer]
+  title: Tragant Computer Berlin - Willkommen
+
+- href: http://www.lawinenwarndienst-bayern.de/
+  tags: [skitour,dav,sport]
+  title: Lawinenwarndienst Bayern
+
+- href: http://www.panico.de/
+  tags: [klettern,bücher,skitour,urlaub]
+  title: panico Alpinverlag
+
+- href: http://www.wildwasser-laden.de/
+  tags: [shopping,wandern]
+  title: Wildwasser-Laden
+
+- href: http://www.findmybook.de/
+  tags: [shopping,bücher]
+  title: findmybook
+
+- href: http://www.france-hotel-guide.com/
+  tags: [paris]
+  title: France Hotel Guide
+
+- href: http://dslr.bsoft.de/eBooks/linux/linux_kap09_007.htm
+  tags: [linux]
+  title: Sysrequests bei Systemhänger
+
+- href: http://www.klettersteig.de/main.asp
+  tags: [klettersteig,urlaub]
+  title: Klettersteig.de
+
+- href: http://www.dav-felsinfo.de/
+  tags: [klettern,dav,sport,urlaub]
+  title: DAV - Felsinformationssystem
+
+- href: http://www.wohnpool.de/
+  tags: [immobilien]
+  title: Wohnpool
+
+- href: http://www.immo-karlsruhe.de/
+  tags: [immobilien]
+  title: immo Karlsruhe
+
+- href: http://www.volkswohnung.com/
+  tags: [immobilien]
+  title: Volkswohnung Karlsruhe
+
+- href: http://www.immobilienscout24.de/
+  tags: [immobilien]
+  title: Immobilien Scout24
+
+- href: http://www.s-immobilien.de/
+  tags: [immobilien]
+  title: Sparkasse Immobilien
+
+- href: http://www.sport-conrad.com/
+  tags: [skitour,shopping]
+  title: Sport Conrad
+
+- href: http://www.alpinsportladen.de/
+  tags: [klettern,shopping,skitour,wandern]
+  title: Alpinsportladen
+
+- href: http://www.montagne.de/
+  tags: [shopping,skitour,klettern,wandern]
+  title: montagne.de
+
+- href: http://www.wandern-klettern-kanu.de/
+  tags: [skitour,shopping,klettern,wandern]
+  title: bichlmoser + oberhofer
+
+- href: http://www.schwanda.at/
+  tags: [shopping,klettern,skitour,wandern]
+  title: Bergsport Schwanda Wien
+
+- href: http://www.zvab.com/
+  tags: [bücher,shopping]
+  title: Antiquarische Buecher
+
+- href: http://www.buchkatalog.de/
+  tags: [bücher,shopping]
+  title: Buchkatalog
+
+- href: http://www.buch24.de/
+  tags: [bücher,shopping]
+  title: Buch24.de
+
+- href: http://www.homelidays.com/
+  tags: [urlaub,ferienhäuser]
+  title: Homelidays - Ferienhäuser
+
+- href: http://www.frosch-ferienhaus.de/
+  tags: [ferienhäuser,urlaub]
+  title: Frosch Ferienhäuser - Alpen / Ostsee
+
+- href: http://www.escalade-alsace.com/
+  tags: [sport,klettern]
+  title: Escalade Alsace
+
+- href: http://www.jo-com.de/
+  tags: [homepage,leininger]
+  title: Jojos Homepage
+
+- href: http://www.chennecke.de/
+  tags: [posse,homepage,leininger]
+  title: Chrischans Homepage
+
+- href: http://www.schmilsen.de/
+  tags: [homepage,posse,leininger]
+  title: Schmilsen
