@@ -11,6 +11,9 @@
       {% else %}
         {% assign favicon = link.href | append: "/favicon.ico" %}
       {% endif %}
+      {% if favicon contains "http://" %}
+        {% assign favicon = "assets/img/unprotected.png" %}
+      {% endif %}
       <tr>
         <td style="border:0;padding:4px;">
           {% if favicon and (favicon contains "https://") %}
@@ -39,11 +42,12 @@
   {% else %}
     {% assign favicon = link.href | append: "/favicon.ico" %}
   {% endif %}
+  {% if favicon contains "http://" %}
+    {% assign favicon = "assets/img/unprotected.png" %}
+  {% endif %}
   <tr>
     <td style="border:0;padding:4px;">
-      {% if favicon and (favicon contains "https://") %}
-        <img src="{{ favicon }}" alt=" " style="all:unset;width:16px;height:16px;margin:0;vertical-align:middle;"/>
-      {% endif %}
+      <img src="{{ favicon }}" alt=" " style="all:unset;width:16px;height:16px;margin:0;vertical-align:middle;"/>
     </td>
     <td style="border:0;padding:4px;">
       <a href="{{ link.href }}" style="vertical-align:middle;">{{ link.title }}</a>
