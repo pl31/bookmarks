@@ -21,12 +21,12 @@
 - title: leo en
   href: https://dict.leo.org/ende
   tags: [quicklink,search]
-  icon: https://dict.leo.org/favicon.ico
+  icon: https://dict.leo.org/img/favicons/ende-32-f4adc348.png
 
 - title: leo fr
   href: https://dict.leo.org/frde
   tags: [quicklink,search]
-  icon: https://dict.leo.org/favicon.ico
+  icon: https://dict.leo.org/img/favicons/frde-32-1268c13d.png
 
 ###
 ### news
