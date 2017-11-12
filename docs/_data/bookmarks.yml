@@ -111,7 +111,7 @@
 
 - title: ShowGPX
   href: https://www.j-berkemeier.de/ShowGPX.html
-  tags: [gps, gpx]
+  tags: [gps,gpx]
   icon: https://www.j-berkemeier.de/favicon.ico
 
 - href: http://kurze-kabel.de/
@@ -136,7 +136,7 @@
 
 - href: https://github.com/Kickball/awesome-selfhosted
   tags: [webapp,saas]
-  title: GitHub - Kickball/awesome-selfhosted: This is a list of Free Software network services and web applications which can be hosted locally. Selfhosting is the process of locally hosting and managing applications instead of renting from SaaS providers.
+  title: "GitHub - Kickball/awesome-selfhosted: This is a list of Free Software network services and web applications which can be hosted locally. Selfhosting is the process of locally hosting and managing applications instead of renting from SaaS providers."
 
 - href: http://selfoss.aditu.de/
   tags: [php,saas,webapp]
@@ -236,7 +236,7 @@
 
 - href: http://code.flickr.com/blog/2012/06/01/parsing-exif-client-side-using-javascript-2/
   tags: [programming,exif,javascript]
-  title: Code: Flickr Developer Blog » Parsing Exif client-side using JavaScript
+  title: "Code: Flickr Developer Blog » Parsing Exif client-side using JavaScript"
 
 - href: http://www.culturebridge-architects.com/
   tags: [homepage]
@@ -244,7 +244,7 @@
 
 - href: http://www.gpsvisualizer.com/elevation
   tags: [free,geotagging,tools,for,photos,gpx,gps]
-  title: GPS Visualizer: Assign elevation data
+  title: "GPS Visualizer: Assign elevation data"
 
 - href: http://code.msdn.microsoft.com/windowsdesktop/Windows-Workflow-c5649c23
   tags: [programming]
