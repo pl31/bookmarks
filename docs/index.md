@@ -15,7 +15,7 @@
         <td style="border:0;padding:4px;">
           <img src="{{ favicon }}" alt=" " style="all:unset;width:16px;height:16px;margin:0;vertical-align:middle;"/>
         </td>
-        <td style="border:0;padding:0;">
+        <td style="border:0;padding:4px;">
           <a href="{{ link.href }}" style="vertical-align:middle;">{{ link.title }}</a>
         </td>
       </tr>   
@@ -28,7 +28,7 @@
 
 # all bookmarks
 
-<table style="border:0;">
+<table>
 <tr>
   <th></th><th>name</th><th>tags</th><th>url</th>
 </tr>
@@ -42,14 +42,14 @@
     <td style="border:0;padding:4px;">
       <img src="{{ favicon }}" alt=" " style="all:unset;width:16px;height:16px;margin:0;vertical-align:middle;"/>
     </td>
-    <td style="border:0;padding:0;">
+    <td style="border:0;padding:4px;">
       <a href="{{ link.href }}" style="vertical-align:middle;">{{ link.title }}</a>
     </td>
-    <td></td>
-        <td style="border:0;padding:0;">
+    <td style="border:0;padding:4px;">
+    </td>
+    <td style="border:0;padding:4px;">
       <a href="{{ link.href }}" style="vertical-align:middle;">{{ link.href }}</a>
     </td>
   </tr>   
 {% endfor %}
 </table>
-</td></tr></table>
