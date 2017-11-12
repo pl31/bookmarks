@@ -28,7 +28,9 @@
 
 # all bookmarks
 
-<table style="border:0;">
+<input type="text" id="tagFilter" onkeyup="filterTable()" placeholder="Search for tags.." />
+
+<table id="allBookmarksTable" style="border:0;">
 {% for link in site.data.bookmarks %}
   {% if link.icon %}
     {% assign favicon = link.icon %}
@@ -48,3 +50,5 @@
   </tr>   
 {% endfor %}
 </table>
+
+<script src='/assets/js/filter_table.js' type="text/javascript"></script>
