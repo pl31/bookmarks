@@ -53,5 +53,3 @@
 {% endfor %}
 </table>
 </td></tr></table>
-{% endfor %}
-
