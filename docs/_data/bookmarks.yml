@@ -122,11 +122,11 @@
   tags: [programming,opcua]
   title: List of Open Source OPC UA Implementations · open62541/open62541 Wiki · GitHub
 
-- href: http://www.immocenter-karlsruhe.de/
+- href: https://www.immocenter-karlsruhe.de/
   tags: [immobilien]
   title: Immobilien, Karlsruhe, ImmoCenter GmbH
 
-- href: http://www.uboat.net/boats/patrols/patrol_3275.html
+- href: https://www.uboat.net/boats/patrols/patrol_3275.html
   tags: [U1235]
   title: Patrol of German U-boat U-1235 from 14 Mar 1945 to 15 Apr 1945 - Kriegsmarine U-boat patrols - uboat.net
 
@@ -138,15 +138,15 @@
   tags: [webapp,saas]
   title: "GitHub - Kickball/awesome-selfhosted: This is a list of Free Software network services and web applications which can be hosted locally. Selfhosting is the process of locally hosting and managing applications instead of renting from SaaS providers."
 
-- href: http://selfoss.aditu.de/
+- href: https://selfoss.aditu.de/
   tags: [php,saas,webapp]
   title: selfoss - the open source web based rss reader and multi source mashup aggregator
 
-- href: http://www.rainloop.net/
+- href: https://www.rainloop.net/
   tags: [php,saas,webapp]
   title: RainLoop Webmail
 
-- href: http://www.immonet.de/
+- href: https://www.immonet.de/
   tags: [immobilien]
   title: Immobilien, Wohnungen und Häuser bei Immonet.de
 
@@ -154,19 +154,19 @@
   tags: [programming,python]
   title: The Hitchhiker’s Guide to Python! — The Hitchhiker's Guide to Python
 
-- href: http://www.grpc.io/posts/principles/
+- href: https://www.grpc.io
   tags: [programming]
-  title: grpc / gRPC Motivation and Design Principles.
+  title: grpc / gRPC
 
 - href: https://www.staticgen.com/
   tags: [programming,aktuelles,tools]
   title: Top Open-Source Static Site Generators - StaticGen
 
-- href: http://www.melvinsi-fashion.de/
+- href: https://www.melvinsi-fashion.de/
   tags: [shopping,lang]
   title: großen Größe webshop - Der Onlineshop für Herrenmode in großen Größen bis 8XL.
 
-- href: http://jsonschemalint.com/
+- href: https://jsonschemalint.com/
   tags: [jsonschema,programming]
   title: "JSON Schema Lint :: JSON Schema Validator"
 
@@ -174,15 +174,15 @@
   tags: [programming,ipython]
   title: ipython kernel
 
-- href: https://code.google.com/p/or-tools/
+- href: https://github.com/google/or-tools
   tags: [opensource,programming]
   title: or-tools - Operations Research Tools developed at Google - Google Project Hosting
 
-- href: http://nbviewer.ipython.org/github/ipython/ipython/blob/2.x/examples/Interactive%20Widgets/Index.ipynb
+- href: https://nbviewer.ipython.org/github/ipython/ipython/blob/2.x/examples/Interactive%20Widgets/Index.ipynb
   tags: [programming,ipython]
   title: IPython Widgets 2
 
-- href: http://nbviewer.ipython.org/github/ipython/ipython/tree/2.x/examples/Interactive%20Widgets/
+- href: https://nbviewer.ipython.org/github/ipython/ipython/tree/2.x/examples/Interactive%20Widgets/
   tags: [programming,ipython]
   title: IPython Widgets
 
@@ -190,15 +190,15 @@
   tags: [ipython,programming]
   title: A gallery of interesting IPython Notebooks · ipython/ipython Wiki
 
-- href: http://nbviewer.ipython.org/github/NelisW/ComputationalRadiometry/blob/master/01-IPythonHintsAndTips.ipynb
+- href: https://nbviewer.ipython.org/github/NelisW/ComputationalRadiometry/blob/master/01-IPythonHintsAndTips.ipynb
   tags: [programming,ipython]
   title: IPython Tips and Tricks
 
-- href: http://www.watterott.com/
-  tags: [hardware]
+- href: https://www.watterott.com/
+  tags: [hardware,shopping]
   title: Watterott electronic
 
-- href: http://stackoverflow.com/tags/timezone/info
+- href: https://stackoverflow.com/tags/timezone/info
   tags: [programming]
   title: "'timezone' tag wiki - Stack Overflow"
 
@@ -206,11 +206,11 @@
   tags: [programming]
   title: .NET Regex Tester - Regex Storm
 
-- href: http://www.epubli.de/
+- href: https://www.epubli.de/
   tags: [aktuelles]
   title: Buchdruck von morgen - Eigenes Buch drucken und Buch binden lassen und auf Wunsch veröffentlichen - epubli
 
-- href: http://askubuntu.com/questions/48129/how-to-create-a-restricted-ssh-user-for-port-forwarding
+- href: https://askubuntu.com/questions/48129/how-to-create-a-restricted-ssh-user-for-port-forwarding
   tags: [linux,aktuelles]
   title: security - How to create a restricted SSH user for port forwarding? - Ask Ubuntu - Stack Exchange
 
@@ -218,23 +218,19 @@
   tags: [shopping,aktuelles]
   title: melongia
 
-- href: http://www.it-agile.de/kanban-comic.html
+- href: https://www.it-agile.de/kanban-comic.html
   tags: [aktuelles]
   title: Kanban Comic
 
-- href: http://openweathermap.org/
-  tags: []
+- href: https://openweathermap.org/
+  tags: [programming,weather]
   title: Open Weather Map actual and forecast weather.
 
-- href: http://staff.washington.edu/corey/gulp/
+- href: https://staff.washington.edu/corey/gulp/
   tags: [tcpdump,linux]
   title: Lossless Gigabit Remote Packet Capture With Linux
 
-- href: http://www.radverkehrspolitik.de/welche-ampel-gilt-fur-den-radverkehr/
-  tags: [aktuelles]
-  title: Ampeln und Radverkehr.
-
-- href: http://code.flickr.com/blog/2012/06/01/parsing-exif-client-side-using-javascript-2/
+- href: https://code.flickr.com/blog/2012/06/01/parsing-exif-client-side-using-javascript-2/
   tags: [programming,exif,javascript]
   title: "Code: Flickr Developer Blog » Parsing Exif client-side using JavaScript"
 
@@ -243,40 +239,26 @@
   title: Chrischan
 
 - href: http://www.gpsvisualizer.com/elevation
-  tags: [free,geotagging,tools,for,photos,gpx,gps]
+  tags: [geotagging,gpx,gps]
   title: "GPS Visualizer: Assign elevation data"
-
-- href: http://code.msdn.microsoft.com/windowsdesktop/Windows-Workflow-c5649c23
-  tags: [programming]
-  title: WF4 scope activity
-
-- href: http://ebookbrowse.com/
-  tags: [bücher,ebooks]
-  title: Ebookbrowse.com
-
-- href: http://www.mobileread.com/forums/forumdisplay.php?f=150
-  tags: [kindle]
-  title: Kindle Developer's Corner - MobileRead Forums
 
 - href: http://www.digitalbond.com/2012/01/31/langners-stuxnet-deep-dive-s4-video/
   tags: [security,scada,s7]
   title: Langner's Stuxnet Deep Dive S4 Video | Digital Bond
 
-- href: http://www.opennms.org/
+- href: https://www.opennms.org/
   tags: [security,scada,s7]
   title: The OpenNMS Project
 
-- href: http://twitter.com/#!/search/s7%20OR%20siemens%20from%3Ad1n
-  tags: [scada,security,s7]
-  title: Twitter Dillon Beresford
-
-- href: http://www.wired.com/threatlevel/2012/01/scada-exploits/
+- href: https://www.wired.com/threatlevel/2012/01/scada-exploits/
   tags: [security,scada,s7]
   title: Hoping to Teach a Lesson, Researchers Release Exploits for Critical Infrastructure Software | Threat Level | Wired.com
 
 - href: http://sectools.org/
   tags: [security]
   title: Top 100 Network Security Tools
+
+####
 
 - href: http://www.digitalbond.com/
   tags: [s7,security,scada]
