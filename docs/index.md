@@ -30,7 +30,7 @@
 
 <table>
 <tr>
-  <th></th><th>name</th><th>tags</th><th style="display:none">url</th>
+  <th></th><th>name</th><th>tags</th>
 </tr>
 {% for link in site.data.bookmarks %}
   {% if link.icon %}
@@ -47,9 +47,6 @@
     </td>
     <td style="border:0;padding:4px;">
       {{ link.tags | where_exp: "item", "item != 'quicklink'" | join: " " }}
-    </td>
-    <td style="border:0;padding:4px;">
-      <a href="{{ link.href }}" style="vertical-align:middle;">{{ link.href }}</a>
     </td>
   </tr>   
 {% endfor %}
