@@ -198,9 +198,9 @@
   tags: [hardware]
   title: Watterott electronic
 
-- href: http://stackoverflow.com/tags/timezone/info
-  tags: [programming]
-  title: ""'timezone' tag wiki - Stack Overflow"
+#- href: http://stackoverflow.com/tags/timezone/info
+#  tags: [programming]
+#  title: ""'timezone' tag wiki - Stack Overflow"
 
 - href: http://regexstorm.net/tester
   tags: [programming]
