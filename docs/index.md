@@ -9,7 +9,7 @@
       {% if link.icon %}
         {% assign favicon = link.icon %}
       {% else %}
-        {% assign favicon = link.href + "/favicon.ico" %}
+        {% assign favicon = link.href | append: "/favicon.ico" %}
       {% endif %}
       <tr>
         <td style="border:0;padding:4px;">
