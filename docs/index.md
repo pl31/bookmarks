@@ -15,7 +15,7 @@
         <td style="border:0;padding:4px;">
           <img src="{{ favicon }}" alt=" " style="all:unset;width:16px;height:16px;margin:0;vertical-align:middle;"/>
         </td>
-        <td style="border:0;padding:4px;">
+        <td style="border:0;padding:0px;">
           <a href="{{ link.href }}" style="vertical-align:middle;">{{ link.title }}</a>
         </td>
       </tr>   
@@ -38,7 +38,7 @@
   {% else %}
     {% assign favicon = link.href | append: "/favicon.ico" %}
   {% endif %}
-  <tr style="border:1px;">
+  <tr style="border:1;">
     <td style="border:0;padding:4px;">
       <img src="{{ favicon }}" alt=" " style="all:unset;width:16px;height:16px;margin:0;vertical-align:middle;"/>
     </td>
