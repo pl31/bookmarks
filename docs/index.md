@@ -28,7 +28,6 @@
 
 # all bookmarks
 
-<script src='/assets/js/filterTable.js' type="text/javascript"></script>
 <input type="text" id="tagFilter" onkeyup="filterTable()" placeholder="Search for tags.." />
 
 <table id="allBookmarksTable" style="border:0;">
@@ -51,3 +50,5 @@
   </tr>   
 {% endfor %}
 </table>
+
+{% include filterTable.js %}
