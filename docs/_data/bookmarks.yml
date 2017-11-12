@@ -168,7 +168,7 @@
 
 - href: http://jsonschemalint.com/
   tags: [jsonschema,programming]
-  title: JSON Schema Lint :: JSON Schema Validator
+  title: "JSON Schema Lint :: JSON Schema Validator"
 
 - href: https://github.com/ipython/ipython/wiki/Projects-using-IPython#list-of-some-ipython-compatible-kernels
   tags: [programming,ipython]
