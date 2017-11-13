@@ -34,6 +34,9 @@
 <input type="text" id="tagFilter" onkeyup="filterTable()" placeholder="Search for tags.." />
 
 <table id="allBookmarksTable" style="border:0;">
+<p>
+  {{ site.data }}
+</p>
 {% for datafile in site.data %}
   {% for link in datafile %}
     {% if link.icon %}
