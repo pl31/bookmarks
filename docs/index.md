@@ -34,11 +34,10 @@
 <input type="text" id="tagFilter" onkeyup="filterTable()" placeholder="Search for tags.." />
 
 <table id="allBookmarksTable" style="border:0;">
-<p>
-  {{ site.data }}
-</p>
 {% for datafile in site.data %}
-  {% for link in datafile %}
+  datafileName = datafile[0]
+  datafileLinks = datafile[1]
+  {% for link in datafileLinks %}
     {% if link.icon %}
       {% assign favicon = link.icon %}
     {% else %}
