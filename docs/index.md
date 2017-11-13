@@ -35,8 +35,8 @@
 
 <table id="allBookmarksTable" style="border:0;">
 {% for datafile in site.data %}
-  datafileName = datafile[0]
-  datafileLinks = datafile[1]
+  {% assign datafileName = datafile[0] %}
+  {% assign datafileLinks = datafile[1] %}
   {% for link in datafileLinks %}
     {% if link.icon %}
       {% assign favicon = link.icon %}
