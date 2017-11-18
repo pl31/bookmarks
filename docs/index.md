@@ -1,3 +1,6 @@
+{% include filterTable.js %}
+{% include loadFavicon.js %}
+
 # [quicklinks](#quicklinks)
 
 {% for tag in site.quicklinks %}
@@ -48,7 +51,7 @@
     {% endif %}
     <tr>
       <td style="border:0;padding:4px;">
-        <img src="{{ favicon }}" alt=" " style="all:unset;width:16px;height:16px;margin:0;vertical-align:middle;"/>
+        <img src="assets/img/empty.png" onload=loadFavicon("{{ link.href }}") style="all:unset;width:16px;height:16px;margin:0;vertical-align:middle;"/>
       </td>
       <td style="border:0;padding:4px;">
         <a href="{{ link.href }}" style="vertical-align:middle;">{{ link.title }}</a>
@@ -60,5 +63,3 @@
   {% endfor %}
 {% endfor %}
 </table>
-
-{% include filterTable.js %}
