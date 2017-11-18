@@ -50,6 +50,7 @@
 - href: https://www.grpc.io
   tags: [programming]
   title: grpc / gRPC
+  icon: https://www.grpc.io/favicons/favicon-32x32.png
 
 - href: https://www.staticgen.com/
   tags: [programming,aktuelles,tools]
