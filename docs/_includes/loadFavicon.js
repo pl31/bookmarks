@@ -1,4 +1,4 @@
-function loadFavicon(href) {
+function loadFavicon(imgElement, href) {
     console.log(href)
   // Declare variables
 //   var input, filter, table, tr, td, i;
