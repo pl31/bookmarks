@@ -1,5 +1,6 @@
 function loadFavicon(imgElement, href) {
-    console.log(href)
+    imgElement.onload = null;
+    imgElement.src = href + "/favicon.ico";
   // Declare variables
 //   var input, filter, table, tr, td, i;
 //   input = document.getElementById("tagFilter");
