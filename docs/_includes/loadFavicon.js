@@ -1,6 +1,6 @@
 <script>
 function loadFavicon(href) {
-    print(href)
+    console.log(href)
   // Declare variables
 //   var input, filter, table, tr, td, i;
 //   input = document.getElementById("tagFilter");
