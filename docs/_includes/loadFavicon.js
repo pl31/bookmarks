@@ -1,4 +1,3 @@
-<script>
 function loadFavicon(href) {
     console.log(href)
   // Declare variables
@@ -20,4 +19,3 @@ function loadFavicon(href) {
 //     }
 //   }
 }
-</script>

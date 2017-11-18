@@ -1,5 +1,9 @@
+<script>
 {% include filterTable.js %}
+</script>
+<script>
 {% include loadFavicon.js %}
+</script>
 
 # [quicklinks](#quicklinks)
 

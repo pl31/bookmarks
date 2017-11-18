@@ -1,4 +1,3 @@
-<script>
 function filterTable() {
   // Declare variables
   var input, filter, table, tr, td, i;
@@ -19,4 +18,3 @@ function filterTable() {
     }
   }
 }
-</script>
