@@ -22,7 +22,8 @@ function filterTable() {
     tr[i].style.display = "";
     // hide it, if one tag is missing
     for (j = 0; j < tagList.length; j++) {
-      if (td.innerHTML.toLowerCase().indexOf(tagList[j]) == -1) {
+      linkTags = td.innerHTML.trim().toLowerCase().split(" ");
+      if (!linkTags.includes(tagList[j])) {}
         tr[i].style.display = "none";
       }
     }
