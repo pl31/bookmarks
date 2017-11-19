@@ -38,7 +38,7 @@
 <form id="tagFilterForm">
 {% for tag in all_tags %}
   <label>
-    <input type="checkbox" name="cb-{{ tag }}" value="{{ tag }}" onchange="filtertable()">
+    <input type="checkbox" name="cb-{{ tag }}" value="{{ tag }}" onchange="filterTable()">
     {{tag}}
   </label>
 {% endfor %}
