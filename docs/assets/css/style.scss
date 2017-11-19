@@ -3,6 +3,12 @@
 
 @import "{{ site.theme }}";
 
+// style checkbox: bold when checked
 :checked + span {
     font-weight: bold;
+ }
+
+ // style checkbox: hide box
+ input[type=checkbox] {
+    display: none;
  }
