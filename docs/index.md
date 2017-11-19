@@ -1,4 +1,6 @@
 <script>{% include filterTable.js %}</script>
+<script>window.addEventListener('load', filterTable, false);
+</script>
 
 # [quicklinks](#quicklinks)
 
