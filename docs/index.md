@@ -39,7 +39,7 @@
 {% for tag in all_tags %}
   <label>
     <input type="checkbox" name="cb-{{ tag }}" value="{{ tag }}" onchange="filterTable()">
-    {{tag}}
+    <span>{{tag}}</span>
   </label>
 {% endfor %}
 </form>
