@@ -5,7 +5,6 @@
 - title: ShowGPX
   href: https://www.j-berkemeier.de/ShowGPX.html
   tags: [gps,gpx]
-  icon: https://www.j-berkemeier.de/favicon.ico
 
 - href: http://kurze-kabel.de/
   tags: [shopping,computer]
@@ -50,8 +49,7 @@
 - href: https://www.grpc.io
   tags: [programming]
   title: grpc / gRPC
-  icon: https://www.grpc.io/favicons/favicon-32x32.png
-
+  
 - href: https://www.staticgen.com/
   tags: [programming,aktuelles,tools]
   title: Top Open-Source Static Site Generators - StaticGen
