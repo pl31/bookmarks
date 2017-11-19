@@ -38,9 +38,9 @@
 {% assign all_tags = all_tags | sort %}
 
 
-<button name="clear" onclick="uncheckTags()" style="display:block; float:left;">clear</button>
-
-<div style="font-size: smaller;">
+<table><tr><td>
+<button name="clear" onclick="uncheckTags()">clear</button>
+</td><td style="font-size: smaller;">
 <form id="tagFilterForm">
 {% for tag in all_tags %}
   <label>
@@ -49,8 +49,7 @@
   </label>
 {% endfor %}
 </form>
-</div>
-
+</td></tr></table>
 
 <table id="allBookmarksTable" style="border:0;">
 {% for datafile in site.data %}
