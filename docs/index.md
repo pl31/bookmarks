@@ -35,6 +35,7 @@
     {% assign all_tags = all_tags | concat: link.tags | uniq %}  
   {% endfor %}
 {% endfor %}
+{% assign all_tags = all_tags | sort %}
 
 <div style="font-size: smaller;">
 <form id="tagFilterForm">
