@@ -19,11 +19,11 @@
   title: Immobilien, Karlsruhe, ImmoCenter GmbH
 
 - href: https://www.uboat.net/boats/patrols/patrol_3275.html
-  tags: [U1235]
+  tags: [u1235]
   title: Patrol of German U-boat U-1235 from 14 Mar 1945 to 15 Apr 1945 - Kriegsmarine U-boat patrols - uboat.net
 
 - href: http://wikimapia.org/16091227/Wreck-of-U-1235
-  tags: [U1235]
+  tags: [u1235]
   title: Wreck of U-1235
 
 - href: https://github.com/Kickball/awesome-selfhosted
@@ -281,7 +281,7 @@
   title: Stromanbieter und Ökostrom
 
 - href: http://www.swig.org/
-  tags: [c#,C++,opensource,programming]
+  tags: [c#,c++,opensource,programming]
   title: Simplified Wrapper and Interface Generator
 
 - href: http://en.wikipedia.org/wiki/Shuttle_Radar_Topography_Mission
@@ -341,7 +341,7 @@
   title: Down for everyone or just me?
 
 - href: http://www.dietmar-kuehl.de/mirror/c++-faq/
-  tags: [C++,programming]
+  tags: [c++,programming]
   title: C++ FAQ LITE
 
 - href: http://www.tragant.de/
