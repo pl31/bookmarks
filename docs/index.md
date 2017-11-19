@@ -36,7 +36,8 @@
 
 <div style="font-size: smaller;">
 {% for tag in all_tags %}
-  {{ tag }} 
+  <input type="checkbox" name="cb-{{ tag }}" value="{{ tag }}">
+  <label for="cb-{{ tag }}">{{tag}}</label>
 {% endfor %}
 </div>
 
