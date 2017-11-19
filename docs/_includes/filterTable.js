@@ -43,9 +43,9 @@ function filterTable() {
   
   for (i = 0; i < input.length; i++) {
     if (visibleTags.includes(input[i].value.toLowerCase())) {
-      input[i].parentElement.style.display = "none";
-    } else {
       input[i].parentElement.style.display = "";
+    } else {
+      input[i].parentElement.style.display = "none";
     }
   }
 }
