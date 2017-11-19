@@ -1,7 +1,9 @@
 function filterTable() {
   // Declare variables
   var input, filter, table, tr, td, i;
-  input = document.getElementById("tagFilter");
+  input = document.getElementById("tagFilterForm");
+
+  return;
   filter = input.value.toUpperCase();
   table = document.getElementById("allBookmarksTable");
   tr = table.getElementsByTagName("tr");

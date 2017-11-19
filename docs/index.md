@@ -38,14 +38,12 @@
 <form id="tagFilterForm">
 {% for tag in all_tags %}
   <label>
-    <input type="checkbox" name="cb-{{ tag }}" value="{{ tag }}">
+    <input type="checkbox" name="cb-{{ tag }}" value="{{ tag }}" onchange="filtertable()">
     {{tag}}
   </label>
 {% endfor %}
 </form>
 </div>
-
-<input type="text" id="tagFilter" onkeyup="filterTable()" placeholder="Search for tags.." />
 
 <table id="allBookmarksTable" style="border:0;">
 {% for datafile in site.data %}
