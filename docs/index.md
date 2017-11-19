@@ -1,6 +1,6 @@
 <script>{% include filterTable.js %}</script>
-<script>window.addEventListener('load', filterTable, false);
-</script>
+<script>{% include uncheckTags.js %}</script>
+<script>window.addEventListener('load', filterTable, false);</script>
 
 # [quicklinks](#quicklinks)
 
@@ -48,7 +48,7 @@
 </form>
 </div>
 
-<button name="clear" onclick="uncheckTags()">Click me</button>
+<button name="clear" onclick="uncheckTags()">clear</button>
 
 <table id="allBookmarksTable" style="border:0;">
 {% for datafile in site.data %}
