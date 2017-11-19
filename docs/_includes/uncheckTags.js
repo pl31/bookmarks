@@ -8,4 +8,6 @@ function uncheckTags() {
             input[i].checked = false;
         }
     }
+
+    filterTable();
 }
