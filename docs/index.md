@@ -48,6 +48,8 @@
 </form>
 </div>
 
+<button name="clear" onclick="uncheckTags()">Click me</button>
+
 <table id="allBookmarksTable" style="border:0;">
 {% for datafile in site.data %}
   {% assign datafileName = datafile[0] %}
