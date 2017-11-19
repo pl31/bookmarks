@@ -25,6 +25,20 @@
 
 # all bookmarks
 
+{% assign all_tags = '' | split: '' %}
+{% for datafile in site.data %}
+  {% assign datafileName = datafile[0] %}
+  {% assign datafileLinks = datafile[1] %}
+  {% for link in datafileLinks %}
+    {% assign all_tags = all_tags | concat: link.tags | uniq %}  
+  {% endfor %}
+{% endfor %}
+
+{{ all_tags }}
+
+
+<input type="checkbox" name="tag1" value="tag1"><input type="checkbox" name="tag2" value="tag2">
+
 <input type="text" id="tagFilter" onkeyup="filterTable()" placeholder="Search for tags.." />
 
 <table id="allBookmarksTable" style="border:0;">
