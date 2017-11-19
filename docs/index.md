@@ -48,7 +48,7 @@
 </form>
 </div>
 
-<button name="clear" onclick="uncheckTags()">clear</button>
+<button name="clear" onclick="(function(){uncheckTags();filterTable();})">clear</button>
 
 <table id="allBookmarksTable" style="border:0;">
 {% for datafile in site.data %}
