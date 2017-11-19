@@ -34,7 +34,7 @@ function filterTable() {
     td = tr[i].getElementsByTagName("td")[2];
     // visible by default
     if (tr[i].style.display != "none") {
-      visibleTags = visibleTags.concat(td.innerHTML.toLowerCase().split(" "));
+      visibleTags = visibleTags.concat(td.innerHTML.trim().toLowerCase().split(" "));
       visibleTags = [...new Set(visibleTags)] // make unique
     }
   }
