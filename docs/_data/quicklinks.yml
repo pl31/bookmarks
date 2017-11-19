@@ -20,12 +20,10 @@
 - title: leo en
   href: https://dict.leo.org/ende
   tags: [quicklink,search]
-  icon: https://dict.leo.org/img/favicons/ende-32-f4adc348.png
 
 - title: leo fr
   href: https://dict.leo.org/frde
   tags: [quicklink,search]
-  icon: https://dict.leo.org/img/favicons/frde-32-1268c13d.png
 
 ###
 ### news
@@ -74,15 +72,15 @@
 ###
 - title: amazon
   href: https://smile.amazon.de
-  tags: [quicklink,misc]
+  tags: [quicklink,misc,shopping]
 
 - title: github
   href: https://github.com/pl31
-  tags: [quicklink,misc]
+  tags: [quicklink,misc,programming]
 
 - title: docker
   href: https://hub.docker.com/r/pl31
-  tags: [quicklink,misc]
+  tags: [quicklink,misc,programming]
 
 ###
 ### weather
