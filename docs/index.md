@@ -7,7 +7,7 @@
   <h2>{{ tag }}</h2>
   <table style="border:0;">
   {% for link in site.data.quicklinks %}
-    {% if (link.tags contains "quicklink") and (link.tags contains tag) %}
+    {% if link.tags contains tag %}
       <tr>
         <td style="border:0;padding:4px;">
           <img src="https://www.google.com/s2/favicons?domain_url={{ link.href }}" style="all:unset;width:16px;height:16px;margin:0;vertical-align:middle;"/>

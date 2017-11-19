@@ -3,96 +3,96 @@
 ###
 - title: google
   href: https://www.google.de
-  tags: [quicklink,search]
+  tags: [search]
 
 - title: google maps
   href: https://www.google.de/maps
-  tags: [quicklink,search]
+  tags: [search]
 
 - title: de.wikipedia.org
   href: https://de.wikipedia.org
-  tags: [quicklink,search]
+  tags: [search]
 
 - title: en.wikipedia.org
   href: https://en.wikipedia.org
-  tags: [quicklink,search]
+  tags: [search]
 
 - title: leo en
   href: https://dict.leo.org/ende
-  tags: [quicklink,search]
+  tags: [search]
 
 - title: leo fr
   href: https://dict.leo.org/frde
-  tags: [quicklink,search]
+  tags: [search]
 
 ###
 ### news
 ###
 - title: feed reader
   href: https://c.pl31.de/paco/reader
-  tags: [quicklink,news]
+  tags: [news]
 
 - title: taz
   href: https://www.taz.de
-  tags: [quicklink,news]
+  tags: [news]
 
 - title: zeit
   href: http://www.zeit.de
-  tags: [quicklink,news]
+  tags: [news]
 
 - title: spiegel
   href: http://www.spiegel.de
-  tags: [quicklink,news]
+  tags: [news]
 
 - title: kicker
   href: http://www.kicker.de
-  tags: [quicklink,news]
+  tags: [news]
 
 - title: ka-news
   href: https://www.ka-news.de
-  tags: [quicklink,news]
+  tags: [news]
 
 ###
 ### social
 ###
 - title: web.de
   href: https://web.de
-  tags: [quicklink,social]
+  tags: [social]
 
 - title: xing
   href: https://www.xing.com
-  tags: [quicklink,social]
+  tags: [social]
 
 - title: strava
   href: https://www.strava.com
-  tags: [quicklink,social]
+  tags: [social]
 
 ###
 ### misc
 ###
 - title: amazon
   href: https://smile.amazon.de
-  tags: [quicklink,misc,shopping]
+  tags: [misc,shopping]
 
 - title: github
   href: https://github.com/pl31
-  tags: [quicklink,misc,programming]
+  tags: [misc,programming]
 
 - title: docker
   href: https://hub.docker.com/r/pl31
-  tags: [quicklink,misc,programming]
+  tags: [misc,programming]
 
 ###
 ### weather
 ###
 - title: wetterdienst
   href: http://www.wetterdienst.de/Deutschlandwetter/Suedstadt_Karlsruhe_(Baden)
-  tags: [quicklink,weather]
+  tags: [weather]
 
 - title: kachelmann
   href: https://kachelmannwetter.com/de/vorhersage/2892794-karlsruhe/kompakt
-  tags: [quicklink,weather]
+  tags: [weather]
 
 - title: regenradar
   href: https://www.wetteronline.de/regenradar
-  tags: [quicklink,weather]
+  tags: [weather]
