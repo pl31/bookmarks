@@ -34,11 +34,11 @@
   {% endfor %}
 {% endfor %}
 
-<div><small>
+<div style="font-size: smaller;">
 {% for tag in all_tags %}
   {{ tag }} 
 {% endfor %}
-</small></div>
+</div>
 
 <input type="text" id="tagFilter" onkeyup="filterTable()" placeholder="Search for tags.." />
 
