@@ -1,5 +1,5 @@
 function filterTable() {
-  // get tag list
+  // 1. get tag list
   var form, input, tagList = [];
   form = document.getElementById("tagFilterForm");
   input = form.getElementsByTagName("input");
@@ -10,7 +10,7 @@ function filterTable() {
     }
   }
 
-  // filter table
+  // 2. filter table
   var table, tr, td, i;
   table = document.getElementById("allBookmarksTable");
   tr = table.getElementsByTagName("tr");
@@ -25,6 +25,27 @@ function filterTable() {
       if (td.innerHTML.toLowerCase().indexOf(tagList[j]) == -1) {
         tr[i].style.display = "none";
       }
+    }
+  }
+
+  // 3. filter tag list
+  var visibleTags = [];
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[2];
+    // visible by default
+    if (tr[i].style.display != "none") {
+      visibleTags = visibleTags.concat(td.innerHTML.toLowerCase().split(" "));
+      visibleTags = [...new Set(visibleTags)] // make unique
+    }
+  }
+  // iterate of tags now
+  input = form.getElementsByTagName("input");
+  
+  for (i = 0; i < input.length; i++) {
+    if (visibleTags.includes(input[i].value.toLowerCase())) {
+      input[i].parentElement.style.display = "none";
+    } else {
+      input[i].parentElement.style.display = "";
     }
   }
 }
