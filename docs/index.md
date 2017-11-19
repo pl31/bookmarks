@@ -34,10 +34,9 @@
   {% endfor %}
 {% endfor %}
 
-{{ all_tags }}
-
-
-<input type="checkbox" name="tag1" value="tag1"><input type="checkbox" name="tag2" value="tag2">
+{% for tag in all_tags %}
+  {{ tag }} 
+{% endfor %}
 
 <input type="text" id="tagFilter" onkeyup="filterTable()" placeholder="Search for tags.." />
 
