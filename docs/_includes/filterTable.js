@@ -23,7 +23,7 @@ function filterTable() {
     // hide it, if one tag is missing
     for (j = 0; j < tagList.length; j++) {
       linkTags = td.innerHTML.trim().toLowerCase().split(" ");
-      if (!linkTags.includes(tagList[j])) {}
+      if (!linkTags.includes(tagList[j])) {
         tr[i].style.display = "none";
       }
     }
@@ -39,7 +39,7 @@ function filterTable() {
       visibleTags = [...new Set(visibleTags)] // make unique
     }
   }
-  // iterate of tags now
+  // iterate over tags now
   input = form.getElementsByTagName("input");
   
   for (i = 0; i < input.length; i++) {
