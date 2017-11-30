@@ -71,6 +71,10 @@
   href: https://www.strava.com
   tags: [social]
 
+- title: ssn
+  href: https://siemens.socialcast.com
+  tags: [social]
+
 ###
 ### misc
 ###
@@ -85,10 +89,6 @@
 - title: docker
   href: https://hub.docker.com/r/pl31
   tags: [misc,programming]
-
-- title: ssn
-  href: https://siemens.socialcast.com
-  tags: [misc]
 
 ###
 ### weather
