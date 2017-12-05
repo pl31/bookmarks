@@ -82,6 +82,10 @@
   href: https://smile.amazon.de
   tags: [misc,shopping]
 
+- title: booking.com
+  href: https://www.booking.com
+  tags: [misc,urlaub]
+
 - title: github
   href: https://github.com/pl31
   tags: [misc,programming]
@@ -89,7 +93,7 @@
 - title: docker
   href: https://hub.docker.com/r/pl31
   tags: [misc,programming]
-
+  
 ###
 ### weather
 ###
