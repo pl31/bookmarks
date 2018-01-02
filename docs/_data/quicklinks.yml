@@ -94,10 +94,6 @@
   href: https://hub.docker.com/r/pl31
   tags: [misc,programming]
 
-- title: stadtmobil
-  href: https://karlsruhe.stadtmobil.de/privatkunden/
-  tags: [misc,traffic]
-
 ###
 ### weather
 ###
@@ -113,3 +109,17 @@
   href: https://www.wetteronline.de/regenradar
   tags: [weather]
   
+###
+### traffic
+###
+- title: stadtmobil
+  href: https://karlsruhe.stadtmobil.de/privatkunden/
+  tags: [traffic]
+
+- title: kvv
+  href: https://live.kvv.de/
+  tags: [traffic]
+
+- title: swr3
+  href: https://www.swr3.de/verkehr
+  tags: [traffic]
