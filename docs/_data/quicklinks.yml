@@ -94,6 +94,14 @@
   href: https://hub.docker.com/r/pl31
   tags: [misc,programming]
 
+- title: whereis
+  href: https://whereis.silverpeaks.de
+  tags: [misc]
+
+- title: whereis on github
+  href: https://pl31.github.io/silverpeaks-whereis
+  tags: [misc]
+
 ###
 ### weather
 ###
