@@ -25,6 +25,10 @@
   href: https://dict.leo.org/frde
   tags: [search]
 
+- title: scd
+  href: https://scd.siemens.com
+  tags: [search]
+
 ###
 ### news
 ###
@@ -67,12 +71,20 @@
   href: https://www.strava.com
   tags: [social]
 
+- title: ssn
+  href: https://siemens.socialcast.com
+  tags: [social]
+
 ###
 ### misc
 ###
 - title: amazon
   href: https://smile.amazon.de
   tags: [misc,shopping]
+
+- title: booking.com
+  href: https://www.booking.com
+  tags: [misc,urlaub]
 
 - title: github
   href: https://github.com/pl31
@@ -81,6 +93,14 @@
 - title: docker
   href: https://hub.docker.com/r/pl31
   tags: [misc,programming]
+
+- title: whereis
+  href: https://whereis.silverpeaks.de
+  tags: [misc]
+
+- title: whereis [gh]
+  href: https://pl31.github.io/silverpeaks-whereis
+  tags: [misc]
 
 ###
 ### weather
@@ -96,3 +116,18 @@
 - title: regenradar
   href: https://www.wetteronline.de/regenradar
   tags: [weather]
+  
+###
+### traffic
+###
+- title: stadtmobil
+  href: https://karlsruhe.stadtmobil.de/privatkunden/
+  tags: [traffic]
+
+- title: kvv
+  href: https://live.kvv.de/
+  tags: [traffic]
+
+- title: swr3
+  href: https://www.swr3.de/verkehr
+  tags: [traffic]
