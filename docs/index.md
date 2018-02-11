@@ -1,3 +1,7 @@
+<head>
+    <link rel="icon" type="image/svg+xml" sizes="any" href="assets/favicons/favicon.svg">
+</head>
+
 <script>{% include filterTable.js %}</script>
 <script>{% include uncheckTags.js %}</script>
 <script>window.addEventListener('load', filterTable, false);</script>
