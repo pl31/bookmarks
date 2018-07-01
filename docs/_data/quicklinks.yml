@@ -70,6 +70,10 @@
 - title: strava
   href: https://www.strava.com
   tags: [social]
+  
+- title: strava - annual
+  href: http://www.jonathanokeeffe.com/strava/annualSummary.php
+  tags: [social]
 
 - title: ssn
   href: https://siemens.socialcast.com
@@ -126,6 +130,10 @@
 
 - title: kvv
   href: https://live.kvv.de/
+  tags: [traffic]
+
+- title: bahn
+  href: https://bahn.de/
   tags: [traffic]
 
 - title: swr3
