@@ -67,14 +67,6 @@
   href: https://www.xing.com
   tags: [social]
 
-- title: strava
-  href: https://www.strava.com
-  tags: [social]
-  
-- title: strava - annual
-  href: http://www.jonathanokeeffe.com/strava/annualSummary.php
-  tags: [social]
-
 - title: ssn
   href: https://siemens.socialcast.com
   tags: [social]
@@ -139,3 +131,22 @@
 - title: swr3
   href: https://www.swr3.de/verkehr
   tags: [traffic]
+
+###
+### mtb
+###
+- title: strava
+  href: https://www.strava.com
+  tags: [mtb]
+  
+- title: strava - annual
+  href: http://www.jonathanokeeffe.com/strava/annualSummary.php
+  tags: [mtb]
+
+- title: fitfiletools
+  href: https://www.fitfiletools.com
+  tags: [mtb]
+
+- title: velopro
+  href: https://www.velopro.bike/
+  tags: [mtb]
