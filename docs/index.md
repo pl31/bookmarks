@@ -25,7 +25,7 @@
   </table>
   </td></tr></table>
 {% endfor %}
-<p style="clear: left;"></p>
+
 
 # all bookmarks
 
