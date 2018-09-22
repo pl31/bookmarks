@@ -7,7 +7,7 @@
 # [quicklinks](#quicklinks)
 
 {% for tag in site.quicklinks %}
-  <table style="display:block; float:down; border:0;"><tr><td style="border:0;">
+  <table style="display:inline-block; border:0;"><tr><td style="border:0;">
   <h2>{{ tag }}</h2>
   <table style="border:0;">
   {% for link in site.data.quicklinks %}
