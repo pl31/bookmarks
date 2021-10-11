@@ -25,10 +25,6 @@
   href: https://dict.leo.org/frde
   tags: [search]
 
-- title: scd
-  href: https://scd.siemens.com
-  tags: [search]
-
 ###
 ### news
 ###
@@ -67,13 +63,13 @@
   href: https://www.xing.com
   tags: [social]
 
-- title: ssn
-  href: https://siemens.socialcast.com
-  tags: [social]
-
 ###
 ### misc
 ###
+- title: netflix
+  href: https://www.netflix.com
+  tags: [misc,shopping]
+
 - title: amazon
   href: https://smile.amazon.de
   tags: [misc,shopping]
@@ -84,10 +80,6 @@
 
 - title: github
   href: https://github.com/pl31
-  tags: [misc,programming]
-
-- title: docker
-  href: https://cloud.docker.com/u/pl31
   tags: [misc,programming]
 
 - title: whereis
@@ -152,5 +144,13 @@
   tags: [mtb]
 
 - title: velopro
-  href: https://www.velopro.bike/
+  href: https://www.velopro.bike
+  tags: [mtb]
+
+- title: garmin connect
+  href: https://connect.garmin.com
+  tags: [mtb]
+
+- title: xert
+  href: https://www.xertonline.com
   tags: [mtb]
