@@ -127,6 +127,10 @@
 ###
 ### mtb
 ###
+- title: komoot
+  href: https://www.komoot.de
+  tags: [mtb]
+
 - title: strava
   href: https://www.strava.com
   tags: [mtb]
@@ -135,22 +139,18 @@
   href: http://www.jonathanokeeffe.com/strava/annualSummary.php
   tags: [mtb]
 
-- title: fitfiletools
-  href: https://www.fitfiletools.com
-  tags: [mtb]
-
-- title: strava2gpx
-  href: https://www.doogal.co.uk/strava.php
+- title: garmin connect
+  href: https://connect.garmin.com
   tags: [mtb]
 
 - title: velopro
   href: https://www.velopro.bike
   tags: [mtb]
 
-- title: garmin connect
-  href: https://connect.garmin.com
-  tags: [mtb]
-
 - title: xert
   href: https://www.xertonline.com
+  tags: [mtb]
+
+- title: fitfiletools
+  href: https://www.fitfiletools.com
   tags: [mtb]
