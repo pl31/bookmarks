@@ -22,4 +22,4 @@
   </td></tr></table>
 {% endfor %}
 
-[more bookmarks...]({% link all.md %})
+[more bookmarks...]({{ site.baseurl }}{% link all.md %})
